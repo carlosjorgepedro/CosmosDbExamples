@@ -1,7 +1,7 @@
 ﻿using CosmosDbExamples.Generator;
 using CosmosDbExamples.Writer.Cosmos;
 using CosmosDbExamples.Writer.Settings;
-using CosmosDbExamples;
+using CosmosDbExamples.Settings;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CosmosDbExamples.Writer.IoC

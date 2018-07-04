@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace CosmosDbExamples.Writer.Settings
+namespace CosmosDbExamples.Settings
 {
     public class SettingsReader : ISettingsReader
     {
@@ -16,7 +16,7 @@ namespace CosmosDbExamples.Writer.Settings
                 .AddJsonFile(DefaultSettingsFilename)
                 .Build()
                 .Bind(settings);
-
+           
             return settings;
         }
     }

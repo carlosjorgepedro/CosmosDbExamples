@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDbExamples.Writer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDbExamples.Generator", "CosmosDbWriter.Generator\CosmosDbExamples.Generator.csproj", "{0C0F066B-3713-4FD3-9D18-DF139F03896D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDbExamples.Settings", "CosmosDbExamples.Settings\CosmosDbExamples.Settings.csproj", "{053A59EE-1B51-4828-9803-A3E190088081}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0C0F066B-3713-4FD3-9D18-DF139F03896D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C0F066B-3713-4FD3-9D18-DF139F03896D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C0F066B-3713-4FD3-9D18-DF139F03896D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{053A59EE-1B51-4828-9803-A3E190088081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{053A59EE-1B51-4828-9803-A3E190088081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{053A59EE-1B51-4828-9803-A3E190088081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{053A59EE-1B51-4828-9803-A3E190088081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

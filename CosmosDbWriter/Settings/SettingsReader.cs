@@ -4,7 +4,11 @@ namespace CosmosDbWriter.Settings
 {
     public class SettingsReader : ISettingsReader
     {
+#if DEBUG
+        private const string DefaultSettingsFilename = "appSettings.local.json";
+#else
         private const string DefaultSettingsFilename = "appSettings.json";
+#endif
         public T ReadSettings<T>() where T : class, new()
         {
             var settings = new T();

@@ -17,7 +17,6 @@ namespace CosmosDbWriter.Cosmos
             _collectionUri = UriFactory.CreateDocumentCollectionUri(settings.DatabaseId, settings.CollectionId);
         }
 
-
         public async Task Write<T>(T document)
         {
             var documentClient = new DocumentClient(_cosmosUri, _key);

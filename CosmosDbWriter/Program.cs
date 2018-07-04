@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
 using CosmosDbWriter.IoC;
-using CosmosDbWriter.Settings;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CosmosDbWriter

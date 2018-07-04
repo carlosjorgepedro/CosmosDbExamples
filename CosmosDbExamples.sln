@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDbWriter", "CosmosDbWriter\CosmosDbWriter.csproj", "{9F50CDE9-3906-451D-8DAC-FFCCD01E864F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F50CDE9-3906-451D-8DAC-FFCCD01E864F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F50CDE9-3906-451D-8DAC-FFCCD01E864F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F50CDE9-3906-451D-8DAC-FFCCD01E864F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F50CDE9-3906-451D-8DAC-FFCCD01E864F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9C73B04-44B2-4B4C-9B2C-965A54A9E4D3}
+	EndGlobalSection
+EndGlobal

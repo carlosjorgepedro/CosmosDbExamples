@@ -1,5 +1,6 @@
 ﻿using System;
 using CosmosDbWriter.Generator;
+using CosmosDbWriter.IoC;
 using CosmosDbWriter.Settings;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -12,15 +13,11 @@ namespace CosmosDbWriter
             Console.WriteLine($"Starting {typeof(Program).Namespace}.");
 
             var serviceProvider = new ServiceCollection()
-                .AddSingleton<ISettingsReader, SettingsReader>()
-                .AddSingleton(x => x.GetService<ISettingsReader>().ReadSettings<CosmosDbWritterSettings>())
-                .AddSingleton<IRandomGenerator, RandomGenerator>()
+                .RegisterCommonDependencies()
                 .BuildServiceProvider();
 
             Console.ReadKey();
             Console.WriteLine($"{typeof(Program).Namespace} ended.");
         }
-
-
     }
 }

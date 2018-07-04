@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using CosmosDbWriter.Cosmos;
 
 namespace CosmosDbWriter.Settings
 {
     internal class CosmosDbWritterSettings
     {
+        public CosmosDbSettings CosmosDbSettings { get; set; }
     }
 }

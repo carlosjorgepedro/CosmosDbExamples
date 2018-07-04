@@ -1,4 +1,4 @@
-﻿namespace CosmosDbWriter.Settings
+﻿namespace CosmosDbExamples.Writer.Settings
 {
     public interface ISettingsReader
     {

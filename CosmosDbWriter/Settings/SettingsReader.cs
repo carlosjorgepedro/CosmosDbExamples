@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace CosmosDbWriter.Settings
+namespace CosmosDbExamples.Writer.Settings
 {
     public class SettingsReader : ISettingsReader
     {

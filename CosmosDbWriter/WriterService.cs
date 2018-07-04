@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using CosmosDbWriter.Cosmos;
-using CosmosDbWriter.Domain;
-using CosmosDbWriter.Generator;
+using CosmosDbExamples.Generator;
+using CosmosDbExamples.Writer.Cosmos;
+using CosmosDbExamples.Writer.Domain;
 
-namespace CosmosDbWriter
+namespace CosmosDbExamples.Writer
 {
     public class WriterService : IWriterService
     {

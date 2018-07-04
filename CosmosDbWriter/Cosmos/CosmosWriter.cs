@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.Azure.Documents.Client;
 
-namespace CosmosDbWriter.Cosmos
+namespace CosmosDbExamples.Writer.Cosmos
 {
     public class CosmosWriter : ICosmosWriter
     {

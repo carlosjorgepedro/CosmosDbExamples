@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace CosmosDbWriter
+namespace CosmosDbExamples.Writer
 {
     public interface IWriterService : ICancel
     {

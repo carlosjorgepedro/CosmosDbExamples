@@ -1,6 +1,6 @@
-﻿using CosmosDbWriter.Cosmos;
+﻿using CosmosDbExamples.Writer.Cosmos;
 
-namespace CosmosDbWriter.Settings
+namespace CosmosDbExamples.Writer.Settings
 {
     internal class CosmosDbWritterSettings
     {

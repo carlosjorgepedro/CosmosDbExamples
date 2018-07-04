@@ -1,6 +1,6 @@
 ﻿using AutoFixture;
 
-namespace CosmosDbWriter.Generator
+namespace CosmosDbExamples.Generator
 {
     public class RandomGenerator : IRandomGenerator
     {

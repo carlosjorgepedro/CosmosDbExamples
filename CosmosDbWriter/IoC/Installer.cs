@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CosmosDbWriter.Cosmos;
-using CosmosDbWriter.Generator;
-using CosmosDbWriter.Settings;
+﻿using CosmosDbExamples.Generator;
+using CosmosDbExamples.Writer.Cosmos;
+using CosmosDbExamples.Writer.Settings;
+using CosmosDbExamples;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CosmosDbWriter.IoC
+namespace CosmosDbExamples.Writer.IoC
 {
     public static class Installer
     {

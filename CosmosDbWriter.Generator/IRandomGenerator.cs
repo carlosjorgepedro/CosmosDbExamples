@@ -1,4 +1,4 @@
-﻿namespace CosmosDbWriter.Generator
+﻿namespace CosmosDbExamples.Generator
 {
     public interface IRandomGenerator
     {

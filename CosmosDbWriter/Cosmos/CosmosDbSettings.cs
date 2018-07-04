@@ -1,4 +1,4 @@
-﻿namespace CosmosDbWriter.Cosmos
+﻿namespace CosmosDbExamples.Writer.Cosmos
 {
     public class CosmosDbSettings
     {

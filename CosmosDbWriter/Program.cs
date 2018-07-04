@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
-using CosmosDbWriter.IoC;
+using CosmosDbExamples.Writer.IoC;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CosmosDbWriter
+namespace CosmosDbExamples.Writer
 {
     class Program
     {

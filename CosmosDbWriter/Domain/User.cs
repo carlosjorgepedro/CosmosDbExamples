@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CosmosDbWriter.Domain
+namespace CosmosDbExamples.Writer.Domain
 {
     public class User
     {

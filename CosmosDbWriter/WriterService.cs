@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
+using CosmosDbExamples.Domain;
 using CosmosDbExamples.Generator;
 using CosmosDbExamples.Writer.Cosmos;
-using CosmosDbExamples.Writer.Domain;
 
 namespace CosmosDbExamples.Writer
 {
@@ -30,7 +30,9 @@ namespace CosmosDbExamples.Writer
 
         public Task Cancel()
         {
-            return Task.Run(() => { this._canceled = true; });
+            this._canceled = true;
+
+            return Task.CompletedTask;
         }
     }
 }

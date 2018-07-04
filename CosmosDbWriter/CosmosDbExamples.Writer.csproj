@@ -28,6 +28,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CosmosDbExamples.Domain\CosmosDbExamples.Domain.csproj" />
     <ProjectReference Include="..\CosmosDbExamples.Settings\CosmosDbExamples.Settings.csproj" />
     <ProjectReference Include="..\CosmosDbWriter.Generator\CosmosDbExamples.Generator.csproj" />
   </ItemGroup>

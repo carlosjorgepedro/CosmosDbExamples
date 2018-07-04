@@ -8,7 +8,7 @@ namespace CosmosDbWriter.Cosmos
     {
         private readonly Uri _cosmosUri;
         private readonly string _key;
-        private Uri _collectionUri;
+        private readonly Uri _collectionUri;
 
         public CosmosWriter(CosmosDbSettings settings)
         {
